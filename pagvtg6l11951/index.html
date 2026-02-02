@@ -74,17 +74,7 @@
           <div>
             <div class="hoje w-embed w-script"><b><span id="hoje"></span></b>
              <vturb-smartplayer id="vid-697d1294a49b81aeddb6bc27" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/ee23f5b0-45e7-4e27-a038-209fb03d31cc/players/697d1294a49b81aeddb6bc27/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
-                // Função para mostrar a data no formato desejado
-                function mostrarData() {
-                  const hoje = new Date(); // Cria um objeto Date com a data atual
-                  const dia = String(hoje.getDate()).padStart(2, '0'); // Dia com 2 dígitos
-                  const mes = String(hoje.getMonth() + 1).padStart(2, '0'); // Mês com 2 dígitos
-                  const ano = hoje.getFullYear(); // Ano
-                  // Exibe a data no formato "DD/MM/YYYY"
-                  document.getElementById('hoje').textContent = `${dia}/${mes}/${ano}`;
-                }
-                // Chama a função para exibir a data ao carregar a página
-                mostrarData();
+                
               </script>
             </div>
           </div>
